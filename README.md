@@ -10,8 +10,8 @@ hidden: true
 
 **Course**: DS   <br/>
 **Mod**: Mod 3 V2         <br/>
-**Topic**:  PDFs, CDFs and PMFs  <br/>
-**Amount of time**: 60 minutes <br/>
+**Topic**:  Central Limit Theorem and Confidence Intervals  <br/>
+**Amount of time**: 45+ minutes <br/>
 **Author**: Matt Mitchell
 
 
@@ -19,71 +19,66 @@ hidden: true
 
 #### Lesson Summary:
 
-This lesson covers PMFs, PDFs and CDFs. The lesson alternates between reviewing key concepts and asking students conceptual and applied practice problems to gauge and deepen their understanding. The section on CDFs makes connections to percentiles. The section of PMFs reviews the Poisson distribution. There is currently also an addendum on z-tests to deepen students understanding of PDFs.
+This lesson covers the central limit theorem and calculating confidence intervals using the T-distribution. The initial portion investigates the central limit theorem through a simulation which should set the foundation for a discussion with students. From there, confidence intervals are demonstrated by example and students are asked to repeat and then extend the same process, calculating a confidence interval using SciPy for a given sample and then extending that knowledge to repeat this process and visualize the results.
 
 #### Topic:
 
-Statistics 
+Statistics: The Central Limit Theorem and Confidence Intervals 
 
-#### Learn.co material:
-
-
-[Section Recap](https://github.com/learn-co-curriculum/dsc-probability-section-recap)
 
 #### Prerequisite knowledge:
 
-Basic python, matplotlib and importing packages. Ideally, students should have previewed the Learn material on PMFs, PDFs, and CDFs. 
+Students should have a solid understanding of probability before tackling this lesson including the normal distribution, z-scores and associated p-values using the scipy package.
 
 #### Prequisite Learn-Materials:
 
-[The Probability Mass Function ](https://github.com/learn-co-curriculum/dsc-probability-mass-function)
-[The Probability Density Function ](https://github.com/learn-co-curriculum/dsc-probability-density-function)
-[The Cumulative Distribution Function ](https://github.com/learn-co-curriculum/dsc-cumulative-distribution-function)
-[The Poisson Distribution](https://github.com/learn-co-curriculum/dsc-poisson-distribution)
+[Introduction](https://github.com/learn-co-curriculum/dsc-inferential-statistics-section-intro) 
+[Introduction to Sampling](https://github.com/learn-co-curriculum/dsc-introduction-to-sampling) 
+[Central Limit Theorem](https://github.com/learn-co-curriculum/dsc-central-limit-theorem) 
+[Sampling Statistics](https://github.com/learn-co-curriculum/dsc-sampling-statistics-lab) 
+[Confidence Intervals with T Distribution](https://github.com/learn-co-curriculum/dsc-intervals-with-t-distribution) 
+ 
+[Section Recap](https://github.com/learn-co-curriculum/dsc-inferential-statistics-section-recap) 
 
 #### Post Learn-Materials:
-[The Probability Mass Function - Lab ](https://github.com/learn-co-curriculum/dsc-probability-mass-function-lab)
-[The Probability Density Function - Lab ](https://github.com/learn-co-curriculum/probability-density-functions-lab)
-[The Cumulative Distribution Function - Lab ](https://github.com/learn-co-curriculum/dsc-cumulative-distribution-function-lab)
-[The Poisson Distribution - Lab](https://github.com/learn-co-curriculum/dsc-poisson-distribution-lab)
-
+[Central Limit Theorem - Lab](https://github.com/learn-co-curriculum/dsc-central-limit-theorem-lab) 
+[Confidence Intervals - Lab](https://github.com/learn-co-curriculum/dsc-confidence-intervals-lab) 
+[Confidence Intervals with T Distribution - Lab](https://github.com/learn-co-curriculum/dsc-intervals-with-t-distribution-lab)
 
 
 
 #### Learning goals for this lesson:
 
 
-* Students can read and interpret a CDF.
-* Students can read and interpret a PDF.
-* Students can construct a PMF graph given a PMF function.
-* Students can calculate the probability for a given event given a PMF.
+* Students can explain 
+* Students can calculate confidence intervals for a sample parameter using scipy.
 
 
 #### Misconceptions / Notes
 
-* Points on a PDF have a non-zero probability.
+* The central limit theorem has broader implications and applications then described here. This is worth pointing out to students. That said, due to limited time, focusing on the narrower scope outlined here is still recommended.
 
 #### Materials
 - Ipython notebook
 
 #### Vocab / Concepts 
 
-* PMF
-* PDF
-* CDF
-* percentile
-* Poisson Distribution
-    * lambda ($\lambda$)
-    * e
+* Central Limit Theorem
+* Limits
+* T-distribution
+* Degrees of Freedom
+* Confidence Intervals
 
 #### Lesson Outline:
 
-* CDFs
-    * Investigating and interpreting CDFs
-
-* PDFs
-    * Notes on PDFs
-    * Addendum Exercises (Time permitting)
-* PMFs
-    * Poisson Distributions
-* Summary
+*  Central Limit Theorem
+	* Overview (2 minutes)
+	* Simulation (8 minutes)
+		- Probe students to explain what the code is doing
+	* Discussion
+		- What do these simulations demonstrate?
+* Confidence Intervals
+	* Intuition behind confidence intervals (2 min)
+	* Example of calculating a confidence interval (3 min)
+	* Student practice + review (15 min)
+* Summary (3 min)
