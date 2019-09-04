@@ -50,7 +50,7 @@ Students should have a solid understanding of probability before tackling this l
 #### Learning goals for this lesson:
 
 
-* Students can explain 
+* Students can explain the concept of confidence intervals
 * Students can calculate confidence intervals for a sample parameter using scipy.
 
 
