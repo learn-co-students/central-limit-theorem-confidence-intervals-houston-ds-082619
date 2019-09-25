@@ -4,18 +4,19 @@ This lesson covers the central limit theorem and calculating confidence interval
 
 #### Prequisite Learn-Materials:
 
-[Introduction](https://github.com/learn-co-curriculum/dsc-inferential-statistics-section-intro)   
-[Introduction to Sampling](https://github.com/learn-co-curriculum/dsc-introduction-to-sampling)   
-[Central Limit Theorem](https://github.com/learn-co-curriculum/dsc-central-limit-theorem)   
-[Sampling Statistics](https://github.com/learn-co-curriculum/dsc-sampling-statistics-lab)   
-[Confidence Intervals with T Distribution](https://github.com/learn-co-curriculum/dsc-intervals-with-t-distribution)   
+- [Introduction](https://github.com/learn-co-curriculum/dsc-inferential-statistics-section-intro)   
+- [Introduction to Sampling](https://github.com/learn-co-curriculum/dsc-introduction-to-sampling)   
+- [Central Limit Theorem](https://github.com/learn-co-curriculum/dsc-central-limit-theorem)   
+- [Sampling Statistics](https://github.com/learn-co-curriculum/dsc-sampling-statistics-lab)   
+- [Confidence Intervals with T Distribution](https://github.com/learn-co-curriculum/dsc-intervals-with-t-distribution)   
  
 [Section Recap](https://github.com/learn-co-curriculum/dsc-inferential-statistics-section-recap) 
 
 #### Post Learn-Materials:
-[Central Limit Theorem - Lab](https://github.com/learn-co-curriculum/dsc-central-limit-theorem-lab) 
-[Confidence Intervals - Lab](https://github.com/learn-co-curriculum/dsc-confidence-intervals-lab) 
-[Confidence Intervals with T Distribution - Lab](https://github.com/learn-co-curriculum/dsc-intervals-with-t-distribution-lab)
+
+- [Central Limit Theorem - Lab](https://github.com/learn-co-curriculum/dsc-central-limit-theorem-lab) 
+- [Confidence Intervals - Lab](https://github.com/learn-co-curriculum/dsc-confidence-intervals-lab) 
+- [Confidence Intervals with T Distribution - Lab](https://github.com/learn-co-curriculum/dsc-intervals-with-t-distribution-lab)
 
 #### Learning goals for this lesson:
 
